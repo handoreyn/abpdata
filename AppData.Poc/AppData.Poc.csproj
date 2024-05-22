@@ -1,8 +1,11 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\Volo.Abp.EntityFrameworkCore.SqlServer\Volo.Abp.EntityFrameworkCore.SqlServer.csproj" />
-    <ProjectReference Include="..\Volo.Abp.Uow\Volo.Abp.Uow.csproj" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.0" />
+    <PackageReference Include="Volo.Abp.EntityFrameworkCore" Version="8.1.3" />
+    <PackageReference Include="Volo.Abp.EntityFrameworkCore.SqlServer" Version="8.1.3" />
+    <PackageReference Include="Volo.Abp.Uow" Version="8.1.3" />
   </ItemGroup>
 
   <PropertyGroup>
